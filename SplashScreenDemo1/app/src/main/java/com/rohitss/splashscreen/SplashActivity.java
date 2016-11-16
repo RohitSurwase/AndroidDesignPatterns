@@ -14,26 +14,32 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        /**
+         * There are common 3 way to achive flash screen
+         * 1. using thread
+         * 2. using Runnable Handler
+         * 3. using AsyncTask  (Use AsyncTask if you need to request api)
+         */
+
         //Calling function to show splash screen
-        int mPrefferedWay = 0;
-        switch (mPrefferedWay) {
+        int prefferedWay = 0;
+        switch (prefferedWay) {
             case 0:
                 showSplashUsingThread();
                 break;
             case 1:
-                showSplashUsingRunnable();
+                showSplashUsingRunnable(); //comment onStop method
                 break;
             case 2:
-                new SplashUsingAsyncTask().execute();
+                new SplashUsingAsyncTask().execute(); //comment onStop method
                 break;
         }
 
     }
 
     /**
-     * <b>private void showSplashUsingThread()</b>
-     * <p>This function is used to show splash screen using Thread</p>
-     * <p1>Created By - Rohitss</p1>
+     * This function is used to show splash screen using Thread
+     * Created By - Rohitss
      */
     private void showSplashUsingThread() {
         Thread splashThread = new Thread() {
@@ -64,9 +70,8 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     /**
-     * <b>private void showSplashUsingRunnable()</b>
-     * <p>This function is used to show splash screen using Runnable</p>
-     * <p1>Created By - Rohitss</p1>
+     * This function is used to show splash screen using Runnable
+     * Created By - Rohitss
      */
     private void showSplashUsingRunnable() {
         //postDelayed(Runnable r, long delayMillis)
@@ -82,10 +87,11 @@ public class SplashActivity extends AppCompatActivity {
         }, SPLSH_TIME);
     }
 
-    private class SplashUsingAsyncTask extends AsyncTask<Void, Void, Void>{
+    private class SplashUsingAsyncTask extends AsyncTask<Void, Void, Void> {
 
         @Override
         protected Void doInBackground(Void... params) {
+            //api calling function here
             return null;
         }
     }
