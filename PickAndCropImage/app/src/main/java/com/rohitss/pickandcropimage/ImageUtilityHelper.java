@@ -164,8 +164,10 @@ public class ImageUtilityHelper {
      */
     public void deleteLocalImage() {
         try {
-            if (isDeleteLocalImage) {
+            if (isDeleteLocalImage && localImageFile != null) {
                 localImageFile.delete();
+                isDeleteLocalImage = false;
+            } else {
                 isDeleteLocalImage = false;
             }
         } catch (Exception e) {
