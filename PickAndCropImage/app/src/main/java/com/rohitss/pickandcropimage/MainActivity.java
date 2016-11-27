@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 // Should we show an explanation?
                 if (ActivityCompat.shouldShowRequestPermissionRationale(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
                     //Show permission explanation dialog...
-                    Snackbar.make(findViewById(android.R.id.content), "Permission Required", Snackbar.LENGTH_LONG)
+                    Snackbar.make(findViewById(android.R.id.content), "Permission required for the function to work properly.", Snackbar.LENGTH_LONG)
                             .setAction("OK", new View.OnClickListener() {
                                 @Override
                                 public void onClick(View view) {
