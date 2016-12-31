@@ -1,7 +1,8 @@
 package com.rohitss.autoreadsmsotp;
 
 /**
- * Created by JayYogeshwar on 19-12-2016.
+ * This is the Interface to listen to received sms.
+ * Created by rohitss.
  */
 public interface SmsListener {
     void messageReceived(String strMessageBody);

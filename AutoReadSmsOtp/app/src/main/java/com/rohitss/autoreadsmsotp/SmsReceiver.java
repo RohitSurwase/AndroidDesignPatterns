@@ -8,10 +8,11 @@ import android.os.Bundle;
 import android.telephony.SmsMessage;
 
 /**
- * This class is used to Auto Read SMS Received
+ * This class is used to Auto Read SMS Received.
  * Created by Rohit.
  */
 public class SmsReceiver extends BroadcastReceiver {
+    //TODO: Change this constant according to your project "SMS_SENDER_NAME"
     private static final String SMS_SENDER_NAME = "12345";
     private static SmsListener mListener;
     public static boolean isAutoReadOtp = false;

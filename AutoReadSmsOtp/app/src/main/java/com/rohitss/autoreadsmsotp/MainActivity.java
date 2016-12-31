@@ -16,6 +16,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * This is the Activity class where we want to receive the sms/otp.
+ * Created by rohitss.
+ */
 public class MainActivity extends AppCompatActivity {
     private static final int READ_SMS_PERMISSION_CODE = 101;
     private Context mContext;
@@ -27,12 +31,17 @@ public class MainActivity extends AppCompatActivity {
         mContext = MainActivity.this;
 //Request Permission for SMS
         if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.READ_SMS) != PackageManager.PERMISSION_GRANTED) {
+            //Permission is not allowed so request permission.
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_SMS}, READ_SMS_PERMISSION_CODE);
         } else {
+            //Permission is allowed so proceed.
             autoReadSmsOtp();
         }
     }
 
+    /**
+     * This is the function where we can read received SMS.
+     */
     private void autoReadSmsOtp() {
         SmsReceiver.isAutoReadOtp = true;
         SmsReceiver.bindListener(new SmsListener() {
@@ -46,23 +55,28 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        //Enable our broadcast receiver.
         ComponentName receiver = new ComponentName(mContext, SmsReceiver.class);
         PackageManager pm = mContext.getPackageManager();
-        pm.setComponentEnabledSetting(receiver,
-                PackageManager.COMPONENT_ENABLED_STATE_ENABLED,
-                PackageManager.DONT_KILL_APP);
+        pm.setComponentEnabledSetting(receiver, PackageManager.COMPONENT_ENABLED_STATE_ENABLED, PackageManager.DONT_KILL_APP);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
+        //Disable our broadcast receiver.
         ComponentName receiver = new ComponentName(mContext, SmsReceiver.class);
         PackageManager pm = mContext.getPackageManager();
-        pm.setComponentEnabledSetting(receiver,
-                PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
-                PackageManager.DONT_KILL_APP);
+        pm.setComponentEnabledSetting(receiver, PackageManager.COMPONENT_ENABLED_STATE_DISABLED, PackageManager.DONT_KILL_APP);
     }
 
+    /**
+     * This function is used check if permission is allowed or not.
+     *
+     * @param requestCode  requestCode
+     * @param permissions  permissions
+     * @param grantResults grantResults
+     */
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (grantResults.length > 0) {
