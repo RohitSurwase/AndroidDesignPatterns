@@ -42,7 +42,6 @@ public class ImageUtilityHelper {
 
     /**
      * Used to create image chooser intent
-     *
      * @return chooserIntent
      */
     public Intent getPickImageChooserIntent() {
