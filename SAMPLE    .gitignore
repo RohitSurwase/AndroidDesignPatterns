@@ -1,5 +1,6 @@
 #This is a gitignore file
 #Created by "rohitss"
+# Remove tracked files [git rm -r --cached .]
 /.gradle
 /.idea/
 /app/build/
