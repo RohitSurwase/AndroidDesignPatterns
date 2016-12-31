@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SplashScreenDemo1</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="main_screen_message">You have just seen a Splash Screen</string>
+</resources>
