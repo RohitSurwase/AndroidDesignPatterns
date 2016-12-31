@@ -1,0 +1,7 @@
+#Sat Dec 31 10:39:50 IST 2016
+base.0=/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b341a1bcf806869bc25af3d5e2ff2c0f7ad60b85
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d00970c3dafa462b1cee38b57b38ecdedc19ca63/classes.dex
+base.1=/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d00970c3dafa462b1cee38b57b38ecdedc19ca63
+file.0=/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b341a1bcf806869bc25af3d5e2ff2c0f7ad60b85/classes.dex

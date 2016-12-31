@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_ff0de2270ad8c581d592eb9791b6dfbc07ab8e28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android_Studio_IDE/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_3108dcc120e081b8b26cec03f36e9fda98346276/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_d629de13a8c8e3a037555c35a70c8b1cca27002a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_b62782f4ec1d48225a97d4d15620ba546ce670be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_f6122f33ee9c7c38fa0c6fcbd43b66a1a238d19b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_3d00be926041cfafdb33167b6547be078a4e1dbf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cebfb97721025987549d426b031efecf35410407">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d00970c3dafa462b1cee38b57b38ecdedc19ca63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.0_c922d3f27fa338e612a48bc0db75f2d34038e678/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_551311079cb618081a00151831b507016b947cda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="08efeae10c193912b02e2bde9d1047ed9a45e451">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b341a1bcf806869bc25af3d5e2ff2c0f7ad60b85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_bb1f192b69ae37e8f977229a3fc073493b673377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b893c0ba4cf03b6f6bce845ffeb3845f748a78c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_1109aeaa5ed5fc47ebf90d01f359b81c6525bd01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.0_69b75300a7487386008408adef38372992069c5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.0_83115fea3a6b4736068bb07f1a1da4cd51fa9066/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_15f9391563b100068010206f39a1fe557b1ea444/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_f07b2130300dde69d280315a7272ed8a3aa521a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_7622797355d203c22b808f4d4d8bc2aab857ebb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_01fc49989f98025d40a876c0b98bb974ba73d078/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/home/woxi01/Android-Studio-Projects/MyProjects/ADP/AndroidDesignPatterns/AutoReadSmsOtp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_29cc22e7586b022057407ea51d834b242f0d82d0/classes.dex" />
+    </item>
+
+</items>
