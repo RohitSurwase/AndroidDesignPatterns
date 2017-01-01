@@ -1,4 +1,4 @@
-Android Design Patterns
+# Android Design Patterns
 
 Collection of best code snippets to help everyone to simplify Android App Development.
 
