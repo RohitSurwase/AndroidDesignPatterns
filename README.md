@@ -5,12 +5,12 @@ Collection of best code snippets to help everyone to simplify Android App Develo
 Basic idea of this repository is to gather all the example of different topics at one place.
 
 Currently this collection includes
-1. Different ways to show splash screen
-2. Best and correct way to show splash screen.
-3. Adding Navigation Drawer throughout the application
-4. Swipeable tabs with TabLayout
-5. Auto read SMS/OTP
-6. Image Picker with camera and gallery options.
+-1. Different ways to show splash screen
+-2. Best and correct way to show splash screen.
+-3. Adding Navigation Drawer throughout the application
+-4. Swipeable tabs with TabLayout
+-5. Auto read SMS/OTP
+-6. Image Picker with camera and gallery options.
 
 Demos which will be added soon
 - Synchronised Local SQLite Database.
