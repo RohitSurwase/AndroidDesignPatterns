@@ -1,3 +1,5 @@
+Auto Read SMS or OTP  with runtime-permission
+
 * Steps:
  * 1. Add Permissions to manifest
  * * <uses-permission android:name="android.permission.READ_SMS" />

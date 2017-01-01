@@ -13,10 +13,6 @@ buildscript {
 }
 
 allprojects {
-    //You do not need to change buildDir if you have placed your project at root directory
-    //path of buildDir depends on the machine where you are working
-//    buildDir = "C:\\AndroidProjectBuild/${rootProject.name}/${project.name}"
-
     repositories {
         jcenter()
     }

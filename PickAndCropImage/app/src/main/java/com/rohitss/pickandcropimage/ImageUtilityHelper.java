@@ -26,7 +26,7 @@ import static android.app.Activity.RESULT_OK;
  * This class is used to Pick and Crop Image using Camera/Gallery application.
  * This class uses- "Android-Image-Cropper" by "ArthurHub" library to crop image.
  * Library github link - "https://github.com/ArthurHub/Android-Image-Cropper"
- * Created by RohitSS
+ * Created by rohitss
  */
 
 public class ImageUtilityHelper {
