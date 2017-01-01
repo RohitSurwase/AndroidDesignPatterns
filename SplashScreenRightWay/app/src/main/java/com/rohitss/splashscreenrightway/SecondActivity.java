@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
+
 /**
- * Created by JayYogeshwar on 27-12-2016.
+ * This is dummy activity which will show up after flash screen.
+ * Created By rohitss.
  */
 public class SecondActivity extends AppCompatActivity {
     @Override

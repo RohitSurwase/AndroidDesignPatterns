@@ -1,23 +1,20 @@
 package com.rohitss.swipeabletabs;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
 /**
- * A simple {@link Fragment} subclass.
+ * This is a dummy fragment.
+ * Created By - rohitss.
  */
 public class ThreeFragment extends Fragment {
-
 
     public ThreeFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

@@ -15,6 +15,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 
+/**
+ * This is the activity class where we want to add image picker.
+ * Created by rohitss.
+ */
 public class MainActivity extends AppCompatActivity {
     public static final int IMAGE_CHOOSER_CODE = 100;
     private static final int WRITE_PERMISSION_CODE = 5;
@@ -38,9 +42,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void pickAndCropImage(View view) {
         if (ContextCompat.checkSelfPermission(mContext, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+            //Permission denied, so request permission
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_PERMISSION_CODE);
         } else {
-            //TODO: Function that requires permission
+            //Permission allowed
             getImageChooser();
         }
     }

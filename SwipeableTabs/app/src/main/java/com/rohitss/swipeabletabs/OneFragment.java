@@ -1,15 +1,14 @@
 package com.rohitss.swipeabletabs;
 
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
 /**
- * A simple {@link Fragment} subclass.
+ * This is a dummy fragment.
+ * Created By - rohitss.
  */
 public class OneFragment extends Fragment {
 
@@ -25,6 +24,7 @@ public class OneFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false);
     }
+
     public static OneFragment newInstance() {
 
         Bundle args = new Bundle();

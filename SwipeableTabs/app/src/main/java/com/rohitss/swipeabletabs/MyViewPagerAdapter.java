@@ -5,7 +5,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 /**
- * Created by JayYogeshwar on 06-12-2016.
+ * This is the adapter class for our ViewPager.
+ * This class extends FragmentStatePagerAdapter for better performance.
+ * Created By - rohitss.
  */
 public class MyViewPagerAdapter extends FragmentStatePagerAdapter {
     private String[] arrTabNames = {"Page 1", "Page 2", "Page 3"};
