@@ -1,0 +1,1 @@
+This demo shows different ways to show splash screen
