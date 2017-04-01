@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void messageReceived(String messageText) {
                 Toast.makeText(getBaseContext(), messageText, Toast.LENGTH_LONG).show();
+                //If you want to disable sms listener, set isAutoReadOtp to 'false'.
+                SmsReceiver.isAutoReadOtp = false;
             }
         });
     }
