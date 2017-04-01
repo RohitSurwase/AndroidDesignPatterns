@@ -21,17 +21,17 @@ Demos which will be added soon
 Sample for commenting functions/activities in this project
 
 
-#	/**
-#    * <b>functionName</b>
-#    * <p>This function is used to ....</p>
-#    * <p1>Created By - userName</p1>
-#    */
+	/**
+    * <b>functionName</b>
+    * <p>This function is used to ....</p>
+    * <p1>Created By - userName</p1>
+    */
 	 
 	 
 	 
 	 Ex.- 
-#	 /**
-#     * <b>private void showSplashScreen()</b>
-#     * <p>This function is used to show splash screen</p>
-#     * <p1>Created By - Rohitss</p1>
-#     */
+	 /**
+     * <b>private void showSplashScreen()</b>
+     * <p>This function is used to show splash screen</p>
+     * <p1>Created By - Rohitss</p1>
+     */
