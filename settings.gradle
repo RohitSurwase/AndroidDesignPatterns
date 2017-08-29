@@ -1,0 +1,1 @@
+include ':dynamic-recycler-view', ':auto-read-sms-otp', ':navigation-drawer-throughout-app', ':pick-and-crop-image', ':splash-in-different-ways', ':splash-right-way', ':swipeable-tabs', ':acl-in-android'
