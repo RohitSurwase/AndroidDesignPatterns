@@ -1,37 +1,37 @@
 # Android Design Patterns
 
-Collection of best code snippets to help everyone to simplify Android App Development.
+### Collection of modules which implement solutions to various difficulties faced during App development.
 
-Basic idea of this repository is to gather all the example of different topics at one place.
+Basic idea of this repository is to collect sollutions to unique case scenarios in Android.
 
-Currently this collection includes
-- 1. Different ways to show splash screen
-- 2. Best and correct way to show splash screen.
-- 3. Adding Navigation Drawer throughout the application
-- 4. Swipeable tabs with TabLayout
-- 5. Auto read SMS/OTP
-- 6. Image Picker with camera and gallery options.
+#### Available modules
+1. Different ways to show Splash Screen
+2. Best way to show Splash screen.
+3. Navigation Drawer throughout Application
+4. Swipeable tabs with TabLayout
+5. Auto read SMS/OTP
+6. Pick/choose and crop image using Camera or Gallery.
 
-Demos which will be added soon
+#### Upcoming modules
+- Access Control Logic (ACL) in Android.
 - Synchronised Local SQLite Database.
-- Most effective way to use RecyclerView
-- Activity Life Cycle Methods
-- Fragment Life Cycle Methods
+- Dynamic RecyclerView in a better way.
+- Transition Animations in a easier way.
 
-Sample for commenting functions/activities in this project
+### License
+Copyright 2017 Rohit Surwase
 
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
 
-	/**
-    * <b>functionName</b>
-    * <p>This function is used to ....</p>
-    * <p1>Created By - userName</p1>
-    */
-	 
-	 
-	 
-	 Ex.- 
-	 /**
-     * <b>private void showSplashScreen()</b>
-     * <p>This function is used to show splash screen</p>
-     * <p1>Created By - Rohitss</p1>
-     */
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+limitations under the License.
+
+## Contributing to Android Design Patterns
+Just make pull request. You are in!
