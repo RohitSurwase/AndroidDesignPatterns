@@ -1,3 +1,6 @@
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![GitHub stars](https://img.shields.io/github/stars/RohitSurwase/AndroidDesignPatterns.svg?style=social&label=Star)](https://GitHub.com/RohitSurwase/AndroidDesignPatterns/stargazers)
+
 # Android Design Patterns
 
 ### Collection of modules which implement solutions to various difficulties faced during App development.
@@ -11,12 +14,13 @@ Basic idea of this repository is to collect sollutions to unique case scenarios 
 4. Swipeable tabs with TabLayout
 5. Auto read SMS/OTP
 6. Pick/choose and crop image using Camera or Gallery.
+7. **(New)** Animate Activity transitiion throughout App and View visibility (Add View from top/left/right. similarly Remove View from bottom/right/left)
 
 #### Upcoming modules
 - Access Control Logic (ACL) in Android.
 - Synchronised Local SQLite Database.
 - Dynamic RecyclerView in a better way.
-- Transition Animations in a easier way.
+- And so on... **stay tuned for more**.
 
 ### License
 Copyright 2017 Rohit Surwase
