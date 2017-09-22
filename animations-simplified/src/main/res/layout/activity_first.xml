@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.rohitss.animationssimplified.FirstActivity">
+
+        <Button
+            android:id="@+id/buttonActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Slide-In Second Activity"
+            android:textAllCaps="false"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonActivity"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAddRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add View From Right"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/buttonRemoveLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove View From Left"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayoutRight"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="View Added From Right"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewRight"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAddLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add View From Left"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/buttonRemoveRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove View From Right"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayoutLeft"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="View Added From Left"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewLeft"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonAddTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add View From Top"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/buttonRemoveBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove View From Bottom"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/linearLayoutTop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="View Added From Top"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    </RelativeLayout>
+</ScrollView>
