@@ -14,12 +14,12 @@ Basic idea of this repository is to collect sollutions to unique case scenarios 
 4. Swipeable tabs with TabLayout
 5. Auto read SMS/OTP
 6. Pick/choose and crop image using Camera or Gallery.
-7. **(New)** Animate Activity transitiion throughout App and View visibility (Add View from top/left/right. similarly Remove View from bottom/right/left)
+7. Animate Activity transitiions and View's visibility, globally throughout App.
+8. **(New)** Dynamic Expandable RecyclerView in a simple way.
 
 #### Upcoming modules
 - Access Control Logic (ACL) in Android.
 - Synchronised Local SQLite Database.
-- Dynamic RecyclerView in a better way.
 - And so on... **stay tuned for more**.
 
 ### License
