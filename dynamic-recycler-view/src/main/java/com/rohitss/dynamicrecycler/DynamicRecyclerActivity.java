@@ -34,152 +34,121 @@ public class DynamicRecyclerActivity extends AppCompatActivity {
     }
 
     private ArrayList<DummyParentDataItem> getDummyDataToPass() {
-        ArrayList<DummyParentDataItem> dummyDataItems = new ArrayList<>();
-        ArrayList<DummyChildDataItem> dummyChildDataItems;
-        DummyParentDataItem dummyParentDataItem;
-        DummyChildDataItem dummyChildDataItem;
+        ArrayList<DummyParentDataItem> arrDummyData = new ArrayList<>();
+        ArrayList<DummyChildDataItem> childDataItems;
         /////////
-        dummyParentDataItem = new DummyParentDataItem();
-        dummyParentDataItem.setParentName("Parent 1");
-        dummyChildDataItems = new ArrayList<>();
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 1");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyParentDataItem.setChildDataItems(dummyChildDataItems);
-        dummyDataItems.add(dummyParentDataItem);
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("A Child 1"));
+        childDataItems.add(new DummyChildDataItem("A Child 2"));
+        childDataItems.add(new DummyChildDataItem("A Child 3"));
+        arrDummyData.add(new DummyParentDataItem("A Parent, 3 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("B Child 1"));
+        childDataItems.add(new DummyChildDataItem("B Child 2"));
+        childDataItems.add(new DummyChildDataItem("B Child 3"));
+        childDataItems.add(new DummyChildDataItem("B Child 4"));
+        childDataItems.add(new DummyChildDataItem("B Child 5"));
+        childDataItems.add(new DummyChildDataItem("B Child 6"));
+        arrDummyData.add(new DummyParentDataItem("B Parent, 6 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("C Child 1"));
+        childDataItems.add(new DummyChildDataItem("C Child 2"));
+        childDataItems.add(new DummyChildDataItem("C Child 3"));
+        childDataItems.add(new DummyChildDataItem("C Child 4"));
+        childDataItems.add(new DummyChildDataItem("C Child 5"));
+        childDataItems.add(new DummyChildDataItem("C Child 6"));
+        childDataItems.add(new DummyChildDataItem("C Child 7"));
+        childDataItems.add(new DummyChildDataItem("C Child 8"));
+        childDataItems.add(new DummyChildDataItem("C Child 9"));
+        arrDummyData.add(new DummyParentDataItem("C Parent, 9 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("D Child 1"));
+        arrDummyData.add(new DummyParentDataItem("D Parent, 1 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        arrDummyData.add(new DummyParentDataItem("E Parent, 0 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("F Child 1"));
+        childDataItems.add(new DummyChildDataItem("F Child 2"));
+        arrDummyData.add(new DummyParentDataItem("F Parent, 2 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("G Child 1"));
+        childDataItems.add(new DummyChildDataItem("G Child 2"));
+        childDataItems.add(new DummyChildDataItem("G Child 3"));
+        childDataItems.add(new DummyChildDataItem("G Child 4"));
+        arrDummyData.add(new DummyParentDataItem("G Parent, 4 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("H Child 1"));
+        childDataItems.add(new DummyChildDataItem("H Child 2"));
+        childDataItems.add(new DummyChildDataItem("H Child 3"));
+        childDataItems.add(new DummyChildDataItem("H Child 4"));
+        childDataItems.add(new DummyChildDataItem("H Child 5"));
+        childDataItems.add(new DummyChildDataItem("H Child 6"));
+        childDataItems.add(new DummyChildDataItem("H Child 7"));
+        childDataItems.add(new DummyChildDataItem("H Child 8"));
+        arrDummyData.add(new DummyParentDataItem("H Parent, 8 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("I Child 1"));
+        arrDummyData.add(new DummyParentDataItem("I Parent, 1 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("J Child 1"));
+        childDataItems.add(new DummyChildDataItem("J Child 2"));
+        childDataItems.add(new DummyChildDataItem("J Child 3"));
+        childDataItems.add(new DummyChildDataItem("J Child 4"));
+        childDataItems.add(new DummyChildDataItem("J Child 5"));
+        arrDummyData.add(new DummyParentDataItem("J Parent, 5 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("K Child 1"));
+        childDataItems.add(new DummyChildDataItem("K Child 2"));
+        childDataItems.add(new DummyChildDataItem("K Child 3"));
+        childDataItems.add(new DummyChildDataItem("K Child 4"));
+        childDataItems.add(new DummyChildDataItem("K Child 5"));
+        childDataItems.add(new DummyChildDataItem("K Child 6"));
+        childDataItems.add(new DummyChildDataItem("K Child 7"));
+        arrDummyData.add(new DummyParentDataItem("K Parent, 7 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("L Child 1"));
+        childDataItems.add(new DummyChildDataItem("L Child 2"));
+        arrDummyData.add(new DummyParentDataItem("L Parent, 2 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("M Child 1"));
+        childDataItems.add(new DummyChildDataItem("M Child 2"));
+        childDataItems.add(new DummyChildDataItem("M Child 3"));
+        childDataItems.add(new DummyChildDataItem("M Child 4"));
+        childDataItems.add(new DummyChildDataItem("M Child 5"));
+        arrDummyData.add(new DummyParentDataItem("M Parent, 5 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("N Child 1"));
+        childDataItems.add(new DummyChildDataItem("N Child 2"));
+        childDataItems.add(new DummyChildDataItem("N Child 3"));
+        childDataItems.add(new DummyChildDataItem("N Child 4"));
+        childDataItems.add(new DummyChildDataItem("N Child 5"));
+        childDataItems.add(new DummyChildDataItem("N Child 6"));
+        childDataItems.add(new DummyChildDataItem("N Child 7"));
+        childDataItems.add(new DummyChildDataItem("N Child 8"));
+        childDataItems.add(new DummyChildDataItem("N Child 9"));
+        childDataItems.add(new DummyChildDataItem("N Child 10"));
+        childDataItems.add(new DummyChildDataItem("N Child 11"));
+        childDataItems.add(new DummyChildDataItem("N Child 12"));
+        arrDummyData.add(new DummyParentDataItem("N Parent, 12 Children", childDataItems));
+        /////////
+        childDataItems = new ArrayList<>();
+        childDataItems.add(new DummyChildDataItem("O Child 1"));
+        childDataItems.add(new DummyChildDataItem("O Child 2"));
+        arrDummyData.add(new DummyParentDataItem("O Parent, 2 Children", childDataItems));
         ////////
-        dummyParentDataItem = new DummyParentDataItem();
-        dummyParentDataItem.setParentName("Parent 2");
-        dummyChildDataItems = new ArrayList<>();
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 1");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 2");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyParentDataItem.setChildDataItems(dummyChildDataItems);
-        dummyDataItems.add(dummyParentDataItem);
-        ////////
-        dummyParentDataItem = new DummyParentDataItem();
-        dummyParentDataItem.setParentName("Parent 3");
-        dummyChildDataItems = new ArrayList<>();
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 1");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 2");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 3");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 4");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyChildDataItem = new DummyChildDataItem();
-        dummyChildDataItem.setChildName("Child Item 5");
-        dummyChildDataItems.add(dummyChildDataItem);
-        //
-        dummyParentDataItem.setChildDataItems(dummyChildDataItems);
-        dummyDataItems.add(dummyParentDataItem);
-        ////////
-        return dummyDataItems;
-    }
-
-    private class RecyclerDataAdapter extends RecyclerView.Adapter<RecyclerDataAdapter.MyViewHolder> {
-        private ArrayList<DummyParentDataItem> dummyParentDataItems;
-
-        RecyclerDataAdapter(ArrayList<DummyParentDataItem> dummyParentDataItems) {
-            this.dummyParentDataItems = dummyParentDataItems;
-        }
-
-        @Override
-        public RecyclerDataAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-            View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_parent_child_listing, parent, false);
-            return new MyViewHolder(itemView);
-        }
-
-        @Override
-        public void onBindViewHolder(RecyclerDataAdapter.MyViewHolder holder, int position) {
-            DummyParentDataItem dummyParentDataItem = dummyParentDataItems.get(position);
-            holder.textView_parentName.setText(dummyParentDataItem.getParentName());
-            //
-            int noOfChildTextViews = holder.linearLayout_childItems.getChildCount();
-            int noOfChild = dummyParentDataItem.getChildDataItems().size();
-            if (noOfChild < noOfChildTextViews) {
-                for (int index = noOfChild; index < noOfChildTextViews; index++) {
-                    TextView currentTextView = (TextView) holder.linearLayout_childItems.getChildAt(index);
-                    currentTextView.setVisibility(View.GONE);
-                }
-            }
-            for (int textViewIndex = 0; textViewIndex < noOfChild; textViewIndex++) {
-                TextView currentTextView = (TextView) holder.linearLayout_childItems.getChildAt(textViewIndex);
-                currentTextView.setText(dummyParentDataItem.getChildDataItems().get(textViewIndex).getChildName());
-                /*currentTextView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Toast.makeText(mContext, "" + ((TextView) view).getText().toString(), Toast.LENGTH_SHORT).show();
-                    }
-                });*/
-            }
-        }
-
-        @Override
-        public int getItemCount() {
-            return dummyParentDataItems.size();
-        }
-
-        class MyViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-            private Context context;
-            private TextView textView_parentName;
-            private LinearLayout linearLayout_childItems;
-
-            MyViewHolder(View itemView) {
-                super(itemView);
-                context = itemView.getContext();
-                textView_parentName = itemView.findViewById(R.id.tv_parentName);
-                linearLayout_childItems = itemView.findViewById(R.id.ll_child_items);
-                linearLayout_childItems.setVisibility(View.GONE);
-                int intMaxNoOfChild = 0;
-                for (int index = 0; index < dummyParentDataItems.size(); index++) {
-                    int intMaxSizeTemp = dummyParentDataItems.get(index).getChildDataItems().size();
-                    if (intMaxSizeTemp > intMaxNoOfChild) intMaxNoOfChild = intMaxSizeTemp;
-                }
-                for (int indexView = 0; indexView < intMaxNoOfChild; indexView++) {
-                    TextView textView = new TextView(context);
-                    textView.setId(indexView);
-                    textView.setPadding(0, 20, 0, 20);
-                    textView.setGravity(Gravity.CENTER);
-                    textView.setBackground(ContextCompat.getDrawable(context, R.drawable.background_sub_module_text));
-                    LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-                    textView.setOnClickListener(this);
-                    linearLayout_childItems.addView(textView, layoutParams);
-                }
-                textView_parentName.setOnClickListener(this);
-            }
-
-            @Override
-            public void onClick(View view) {
-                if (view.getId() == R.id.tv_parentName) {
-                    if (linearLayout_childItems.getVisibility() == View.VISIBLE) {
-                        linearLayout_childItems.setVisibility(View.GONE);
-                    } else {
-                        linearLayout_childItems.setVisibility(View.VISIBLE);
-                    }
-                } else {
-                    TextView textViewClicked = (TextView) view;
-                    Toast.makeText(context, "" + textViewClicked.getText().toString(), Toast.LENGTH_SHORT).show();
-                }
-            }
-        }
+        return arrDummyData;
     }
 }

@@ -12,6 +12,11 @@ class DummyParentDataItem implements Serializable {
     private String parentName;
     private ArrayList<DummyChildDataItem> childDataItems;
 
+    public DummyParentDataItem(String parentName, ArrayList<DummyChildDataItem> childDataItems) {
+        this.parentName = parentName;
+        this.childDataItems = childDataItems;
+    }
+
     public String getParentName() {
         return parentName;
     }

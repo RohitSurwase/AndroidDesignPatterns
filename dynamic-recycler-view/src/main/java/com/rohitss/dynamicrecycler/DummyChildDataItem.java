@@ -10,6 +10,10 @@ import java.io.Serializable;
 class DummyChildDataItem implements Serializable {
     private String childName;
 
+    public DummyChildDataItem(String childName) {
+        this.childName = childName;
+    }
+
     public String getChildName() {
         return childName;
     }
